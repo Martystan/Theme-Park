@@ -1,5 +1,7 @@
 package attractions;
 
+import people.Visitor;
+
 public abstract class Attraction {
     private String name;
     private int rating;
@@ -22,4 +24,6 @@ public abstract class Attraction {
     public int getVisitCount() {
         return visitCount;
     }
+
+
 }
