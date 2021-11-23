@@ -16,6 +16,14 @@ public class ThemePark {
         this.reviewed = new ArrayList<>();
     }
 
-    
+
+
+    public ArrayList<IReviewed> getAllReviewed(){
+        ArrayList<IReviewed> allReviewed = new ArrayList<>();
+        allReviewed.addAll(attractions);
+        allReviewed.addAll(stalls);
+        return allReviewed;
+    }
+
 }
 
